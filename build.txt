@@ -1,0 +1,11 @@
+git clone https://github.com/apache/camel.git
+
+cd camel
+git checkout tags/camel-2.21.5
+
+cp -r <camel-http4 from here> components/
+
+#note
+#change maven-compiler-version property 
+# from 3.7.0 to 3.6.0
+# in root pom.xml
